@@ -7,6 +7,7 @@ public class Customer {
 
     public Customer(String fullname, String username) {
         //allows a input of just a first name or both first and last
+        //in case of only first name last name will be null
         String[] firstLastName = fullname.split(" ",2);
         this.firstName = firstLastName[0];
         if (firstLastName.length > 1) {
