@@ -8,7 +8,7 @@ public class Cafe {
     private ArrayList<String> coffeeMenu = new ArrayList<>();
 
     public void loadMenuData() {
-        File file = new File("doc/coffee.txt");
+        File file = new File("doc/coffees.txt");
 
         try {
             Scanner scan = new Scanner(file);
